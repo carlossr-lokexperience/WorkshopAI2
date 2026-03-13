@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pathvisualise"
+version = "1.0.0"
+description = "A* Path Finding Visualiser"
+authors = ["Harit <harithmh23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pygame = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
